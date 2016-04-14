@@ -136,7 +136,7 @@ class YardiClientTest extends \PHPUnit_Framework_TestCase {
     $this->assertEquals('Success', $response->resultStatus, $response->resultMessage);
   }
 
-  static public function generateRandomString($length = 10) {
+  public static function generateRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {
@@ -145,7 +145,7 @@ class YardiClientTest extends \PHPUnit_Framework_TestCase {
     return $randomString;
   }
 
-  static public function generateLeads($sourceName, $count = 1) {
+  public static function generateLeads($sourceName, $count = 1) {
     $leads = new YardiXmlDoc();
     for ($i = 0; $i < $count; $i++) {
       $lead = new YardiLead();
@@ -167,4 +167,4 @@ class YardiClientTest extends \PHPUnit_Framework_TestCase {
     return $leads;
   }
 }
- 
+
