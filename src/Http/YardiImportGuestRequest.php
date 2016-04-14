@@ -3,6 +3,7 @@
 namespace YardiClient\Http;
 
 use Yardi\Http\Request;
+use Yardi\Documents\YardiXmlDoc;
 
 class YardiImportGuestRequest extends YardiRequest
 {
