@@ -10,7 +10,9 @@
     }
   ],
   "autoload": {
-    "psr-0": { "": "src/" }
+    "psr-4": {
+      "YardiClient\\": "src/"
+    }
   },
   "require": {
     "phpunit/phpunit": "4.3.5"
