@@ -30,7 +30,7 @@ class YardiResponse
 
     public function setSoapClient($client)
     {
-        if ($client instanceof \SoapClient) {
+        if ($client instanceof SoapClient) {
             $this->client = $client;
         }
     }

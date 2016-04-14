@@ -3,6 +3,8 @@
 namespace YardiClient\Http;
 
 use YardiClient\Http\YardiRequest;
+use YardiClient\Http\YardiResponse;
+use YardiClient\Http\YardiPingResponse'
 
 class YardiPingRequest extends YardiRequest
 {

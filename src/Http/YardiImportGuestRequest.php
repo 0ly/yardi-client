@@ -2,7 +2,10 @@
 
 namespace YardiClient\Http;
 
-use YardiClient\Http\Request;
+use SoapVar;
+use YardiClient\Http\YardiRequest;
+use YardiClient\Http\YardiResponse;
+use YardiClient\Http\YardiImportGuestResponse;
 use YardiClient\Documents\YardiXmlDoc;
 
 class YardiImportGuestRequest extends YardiRequest
