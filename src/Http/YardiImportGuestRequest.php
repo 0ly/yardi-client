@@ -2,8 +2,8 @@
 
 namespace YardiClient\Http;
 
-use Yardi\Http\Request;
-use Yardi\Documents\YardiXmlDoc;
+use YardiClient\Http\Request;
+use YardiClient\Documents\YardiXmlDoc;
 
 class YardiImportGuestRequest extends YardiRequest
 {
