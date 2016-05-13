@@ -1,16 +1,16 @@
 {
     "name": "samrap/yardi-client",
     "description": "A PHP SOAP interface to Yardi CMS. Forked from curiosity26/YardiClient",
-    "minimum-stability": "stable",
-    "license": "proprietary",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
     "authors": [
-        {
-            "name": "Alex Boyce",
-            "email": "curiosity26@gmail.com"
-        },
         {
             "name": "Sam Rapaport",
             "email": "sam@gigasavvy.com"
+        },
+        {
+            "name": "Alex Boyce",
+            "email": "curiosity26@gmail.com"
         }
     ],
     "autoload": {
@@ -20,5 +20,6 @@
     },
     "require": {
         "phpunit/phpunit": "4.3.5"
-    }
+    },
+    "minimum-stability": "dev"
 }
