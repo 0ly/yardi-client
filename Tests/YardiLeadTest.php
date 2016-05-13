@@ -24,7 +24,7 @@ class YardiLeadTest extends \PHPUnit_Framework_TestCase {
 
   public function testLeadBoolean() {
     $lead = new YardiLead();
-    $lead->ScheduleTour = 'True';
+    $lead->ScheduleTour = 'true';
     $this->assertTrue($lead->ScheduleTour, 'YardiLead __set function is not asserting boolean values');
   }
 
@@ -84,7 +84,7 @@ class YardiLeadTest extends \PHPUnit_Framework_TestCase {
       '<PreferredBedrooms>1</PreferredBedrooms></Lead></Leads>', trim((string)$leads));
   }
 
-  static public function generateRandomString($length = 10) {
+  public static function generateRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     $randomString = '';
     for ($i = 0; $i < $length; $i++) {
@@ -93,4 +93,4 @@ class YardiLeadTest extends \PHPUnit_Framework_TestCase {
     return $randomString;
   }
 }
- 
+
