@@ -1,12 +1,16 @@
 {
-  "name": "curiosity26/YardiClient",
-  "description": "A PHP SOAP interface to Yardi CMS",
+  "name": "samrap/YardiClient",
+  "description": "A PHP SOAP interface to Yardi CMS. Forked from curiosity26/YardiClient",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
       "name": "Alex Boyce",
       "email": "curiosity26@gmail.com"
+    },
+    {
+      "name": "Sam Rapaport",
+      "email": "sam@gigasavvy.com"
     }
   ],
   "autoload": {
