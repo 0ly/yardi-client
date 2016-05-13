@@ -250,9 +250,3 @@ class YardiLead implements ArrayAccess
         return isset($this->attributes[$offset]) ? $this->attributes[$offset] : null;
     }
 }
-
-$a = new YardiLead;
-$a['foo'] = 'bar';
-
-echo $a['foo'];
-echo 'yess';
