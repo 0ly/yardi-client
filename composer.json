@@ -1,7 +1,7 @@
 {
     "name": "samrap/yardi-client",
     "description": "A PHP SOAP interface to Yardi CMS. Forked from curiosity26/YardiClient",
-    "keywords": ["framework", "laravel"],
+    "keywords": ["yardi", "client", "api"],
     "license": "MIT",
     "authors": [
         {
